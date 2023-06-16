@@ -22,7 +22,7 @@ lottie_animation3 = load_lottieurl("https://assets3.lottiefiles.com/packages/lf2
 lottie_animation4 = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_7wJrqr.json")
 lottie_animation5 = load_lottieurl("https://assets2.lottiefiles.com/private_files/lf30_4m4xa6he.json")
 lottie_animation6 = load_lottieurl("https://assets3.lottiefiles.com/packages/lf20_3yNFWP.json")
-lottie_animation6 = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_aGFno30IGO.json")
+lottie_animation7 = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_aGFno30IGO.json")
 
 selected = option_menu(
         menu_title = None,
