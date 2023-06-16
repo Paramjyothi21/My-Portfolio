@@ -162,7 +162,7 @@ if selected=="Projects" :
           st.markdown(button_html.format(link_url), unsafe_allow_html=True)
           st.write("\n")
      with col2 :
-          st_lottie(lottie_animation5,height=300,key="cipher")
+          st_lottie(lottie_animation6,height=300,key="cipher")
      st.write("---")
           
 # 4th Project 
