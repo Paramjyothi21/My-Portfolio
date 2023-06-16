@@ -21,7 +21,7 @@ lottie_animation2 = load_lottieurl("https://assets8.lottiefiles.com/packages/lf2
 lottie_animation3 = load_lottieurl("https://assets3.lottiefiles.com/packages/lf20_ddz8yrig.json")
 lottie_animation4 = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_7wJrqr.json")
 lottie_animation5 = load_lottieurl("https://assets2.lottiefiles.com/private_files/lf30_4m4xa6he.json")
-lottie_animation6 = load_lottieurl("https://assets3.lottiefiles.com/packages/lf20_3yNFWP.json")
+lottie_animation6 = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_lzhv1mc4.json")
 lottie_animation7 = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_aGFno30IGO.json")
 
 selected = option_menu(
@@ -186,7 +186,7 @@ if selected=="Projects" :
           st.markdown(button_html.format(link_url), unsafe_allow_html=True)
           st.write("\n")
      with col2 :
-          st_lottie(lottie_animation7,height=300,key="cipher")
+          st_lottie(lottie_animation7,height=300,key="cut")
      col1,col2,col3,col4,col5 = st.columns(5)
      with col3 : 
           link_url = "https://github.com/Paramjyothi21"
