@@ -161,6 +161,7 @@ if selected=="Projects" :
                          '''
           st.markdown(button_html.format(link_url), unsafe_allow_html=True)
           st.write("\n")
+     st.write("---")
           
 # 4th Project 
 
@@ -182,7 +183,6 @@ if selected=="Projects" :
                          '''
           st.markdown(button_html.format(link_url), unsafe_allow_html=True)
           st.write("\n")
-     st.write("---");
      with col2 :
           st_lottie(lottie_animation7,height=300,key="cipher")
      col1,col2,col3,col4,col5 = st.columns(5)
