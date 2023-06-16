@@ -19,9 +19,9 @@ def load_lottieurl(url) :
 lottie_animation1 = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_2glqweqs.json")
 lottie_animation2 = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_78DCvgGZC7.json")
 lottie_animation3 = load_lottieurl("https://assets3.lottiefiles.com/packages/lf20_ddz8yrig.json")
-lottie_animation4 = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_pq4zPRXkhF.json")
-lottie_animation5 = load_lottieurl("https://assets8.lottiefiles.com/private_files/lf30_4m4xa6he.json")
-lottie_animation6 = load_lottieurl("https://assets3.lottiefiles.com/packages/lf20_lzhv1mc4.json")
+lottie_animation4 = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_7wJrqr.json")
+lottie_animation5 = load_lottieurl("https://assets2.lottiefiles.com/private_files/lf30_4m4xa6he.json")
+lottie_animation6 = load_lottieurl("https://assets3.lottiefiles.com/packages/lf20_3yNFWP.json")
 
 selected = option_menu(
         menu_title = None,
@@ -95,17 +95,17 @@ if selected=="Projects" :
      st.write("---")
 # 1st Project
 
-     st.markdown('<span style="color:white"><h2><i>1. Emotion Detection using Machine Learning</i></h2></span>',unsafe_allow_html=True)
+     st.markdown('<span style="color:white"><h2><i>1. Encryption Decryption Image Text</i></h2></span>',unsafe_allow_html=True)
      col1,col2 = st.columns([4,2])
      with col1 :
           st.write(
                     """
-                    - Emotion recognition is the task of machines trying to analyze, interpret and classify human emotion through the analysis of facial features.
-                    - The model detects emotion only when the person in the image is 70% accurate.
-                    - The image preprocessing is done before testing an image to the model that includes multiple substeps to normalize the image for image rotation correction, image resizing, and image cropping.
+                    - Hide messages and images inside images.
+                    - Includes both encryption and decryption of images.
+                    - Can see the encrypted message by decrypting the image.
                     """
                )
-          link_url = "https://github.com/NikhilTeja21/Emotion_Detection"
+          link_url = "https://github.com/Paramjyothi21/Encryption-Decryption-Image-Text"
           button_html = '''
                          <a href="{}" target="_blank">
                          <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
@@ -119,7 +119,7 @@ if selected=="Projects" :
 
 # 2nd Project
 
-     st.markdown('<span style="color:white"><h2><i>2. Merge sort visualization</i></h2></span>',unsafe_allow_html=True)
+     st.markdown('<span style="color:white"><h2><i>2. Visualization-Merge-Sort</i></h2></span>',unsafe_allow_html=True)
      col1,col2 = st.columns([4,2])
      with col1 :
           st.write(
@@ -129,7 +129,7 @@ if selected=="Projects" :
                     - the elements are sorted using the basic technique of comparison and swap. Finally, it merges all the elements together to get the final sorted list of data items.
                     """
                )
-          link_url = "https://github.com/NikhilTeja21/Merge-Sort-Visualisation"
+          link_url = "https://github.com/Paramjyothi21/Visualization-Merge-Sort"
           button_html = '''
                          <a href="{}" target="_blank">
                          <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
@@ -143,7 +143,7 @@ if selected=="Projects" :
 
 # 3rd Project
 
-     st.markdown('<span style="color:white"><h2><i>3. Ceaser cipher algorithm</i></h2></span>',unsafe_allow_html=True)
+     st.markdown('<span style="color:white"><h2><i>3. Cipher Text Conversion</i></h2></span>',unsafe_allow_html=True)
      col1,col2 = st.columns([4,2])
      with col1 :
           st.write(
@@ -153,7 +153,7 @@ if selected=="Projects" :
                     - A Caesar cipher with a shift of 1 would encode an A as a B, an M as an N, and a Z as an A, and so on.
                     """
                )
-          link_url = "https://github.com/NikhilTeja21/Ceaser-Cipher-algorithm"
+          link_url = "https://github.com/Paramjyothi21/Cipher-Text-Conversion"
           button_html = '''
                          <a href="{}" target="_blank">
                          <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
