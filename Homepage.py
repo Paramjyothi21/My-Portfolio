@@ -161,6 +161,8 @@ if selected=="Projects" :
                          '''
           st.markdown(button_html.format(link_url), unsafe_allow_html=True)
           st.write("\n")
+     with col2 :
+          st_lottie(lottie_animation5,height=300,key="cipher")
      st.write("---")
           
 # 4th Project 
@@ -311,11 +313,11 @@ with col3 :
      st.markdown(button_html.format(link_url), unsafe_allow_html=True)
      st.write("\n")
 with col4 :
-     link_url = "paramjyothi567@gmail.com"
+     link_url = "https://twitter.com/ChinniJyothi21"
      button_html = '''
                     <a href="{}" target="_blank">
                     <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
-                    Email</button></a>
+                    Twitter</button></a>
                     '''
      st.markdown(button_html.format(link_url), unsafe_allow_html=True)
      st.write("\n")
