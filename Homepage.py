@@ -22,6 +22,7 @@ lottie_animation3 = load_lottieurl("https://assets3.lottiefiles.com/packages/lf2
 lottie_animation4 = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_7wJrqr.json")
 lottie_animation5 = load_lottieurl("https://assets2.lottiefiles.com/private_files/lf30_4m4xa6he.json")
 lottie_animation6 = load_lottieurl("https://assets3.lottiefiles.com/packages/lf20_3yNFWP.json")
+lottie_animation6 = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_aGFno30IGO.json")
 
 selected = option_menu(
         menu_title = None,
@@ -140,7 +141,7 @@ if selected=="Projects" :
           st_lottie(lottie_animation5,height=300,key="sort")
      st.write("---")
 
-# 3rd Project
+# 3rd Project 
 
      st.markdown('<span style="color:white"><h2><i>3. Cipher Text Conversion</i></h2></span>',unsafe_allow_html=True)
      col1,col2 = st.columns([4,2])
@@ -160,8 +161,29 @@ if selected=="Projects" :
                          '''
           st.markdown(button_html.format(link_url), unsafe_allow_html=True)
           st.write("\n")
+          
+# 3rd Project 
+
+     st.markdown('<span style="color:white"><h2><i>4. Rock paper scissor cut</i></h2></span>',unsafe_allow_html=True)
+     col1,col2 = st.columns([4,2])
+     with col1 :
+          st.write(
+                    """
+                    - A Simple rock paper scissor cut game using python.
+                    - Python tkinter, using gui's (Graphical user interface).
+                    - Rock paper scissor cut with system.
+                    """
+               )
+          link_url = "https://github.com/Paramjyothi21/Rock-Paper_Scissor-Cut"
+          button_html = '''
+                         <a href="{}" target="_blank">
+                         <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
+                         View project 4</button></a>
+                         '''
+          st.markdown(button_html.format(link_url), unsafe_allow_html=True)
+          st.write("\n")
      with col2 :
-          st_lottie(lottie_animation6,height=300,key="cipher")
+          st_lottie(lottie_animation7,height=300,key="cipher")
      col1,col2,col3,col4,col5 = st.columns(5)
      with col3 : 
           link_url = "https://github.com/Paramjyothi21"
