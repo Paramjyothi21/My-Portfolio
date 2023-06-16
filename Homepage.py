@@ -188,7 +188,7 @@ if selected=="Achievement" :
           st.write(
                """
                - Paramjyothi21 - LeetCode Profile
-               - Languages : Python, Java, C++.
+               - Languages : Python, Java.
                - Participating in contests.
                """
           )
