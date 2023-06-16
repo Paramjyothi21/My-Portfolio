@@ -165,7 +165,7 @@ if selected=="Projects" :
           st_lottie(lottie_animation6,height=300,key="cipher")
      col1,col2,col3 = st.columns(3)
      with col2 : 
-          link_url = "https://github.com/Nikhilteja21"
+          link_url = "https://github.com/Paramjyothi21"
           button_html = '''
                          <a href="{}" target="_blank">
                          <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
@@ -243,7 +243,7 @@ if selected=="Achievement" :
                - Functional, Object oriented programming and Data structures and algorithms.
                """
           )
-          link_url = "https://www.hackerrank.com/_Nikhilteja_/"
+          link_url = "https://www.hackerrank.com/paramjyothi567"
           button_html = '''
                          <a href="{}" target="_blank">
                          <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
@@ -255,7 +255,7 @@ if selected=="Achievement" :
           st.image("Images/Hackerrank.png",width=200)
      col1,col2,col3 = st.columns([2,1,2])
      with col2 :
-          link_url = "https://flowcv.com/resume/ui7oiases6"
+          link_url = "https://flowcv.com/resume/u97m12cndp"
           button_html = '''
                          <a href="{}" target="_blank">
                          <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
@@ -274,7 +274,7 @@ with col2 :
      st.markdown('<span style="color:white"><h2><i>Want to Contact me ?</i></h2></span>',unsafe_allow_html=True)
 col1, col2, col3, col4, col5 = st.columns([2, 2, 2, 2, 2])
 with col2 :
-     link_url = "https://www.linkedin.com/in/nikhilteja2621/"
+     link_url = "https://www.linkedin.com/in/gummadivelli-paramjyothi-179b7122a/"
      button_html = '''
                     <a href="{}" target="_blank">
                     <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
@@ -283,7 +283,7 @@ with col2 :
      st.markdown(button_html.format(link_url), unsafe_allow_html=True)
      st.write("\n")
 with col3 :
-     link_url = "https://github.com/Nikhilteja21"
+     link_url = "https://github.com/Paramjyothi21"
      button_html = '''
                     <a href="{}" target="_blank">
                     <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
@@ -292,11 +292,11 @@ with col3 :
      st.markdown(button_html.format(link_url), unsafe_allow_html=True)
      st.write("\n")
 with col4 :
-     link_url = "https://twitter.com/NIKHIL2621"
+     link_url = "paramjyothi567@gmail.com"
      button_html = '''
                     <a href="{}" target="_blank">
                     <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
-                    Twitter</button></a>
+                    Email</button></a>
                     '''
      st.markdown(button_html.format(link_url), unsafe_allow_html=True)
      st.write("\n")
