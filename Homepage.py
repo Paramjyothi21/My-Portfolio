@@ -61,7 +61,6 @@ if selected == "Home" :
                )
                """
                - Python
-               - C++
                - Java
                - C
                """
@@ -188,13 +187,12 @@ if selected=="Achievement" :
           st.markdown('<span style="color:white"><h3><i>1. Leetcode profile</i></h3></span>',unsafe_allow_html=True)
           st.write(
                """
-               - NIKHILTEJA - LeetCode Profile
-               - Problems Solved : 150+.
+               - Paramjyothi21 - LeetCode Profile
                - Languages : Python, Java, C++.
-               - Badges : Binary Search
+               - Participating in contests.
                """
           )
-          link_url = "https://leetcode.com/NIKHILTEJA/"
+          link_url = "https://leetcode.com/paramjyothi567/"
           button_html = '''
                          <a href="{}" target="_blank">
                          <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
@@ -208,21 +206,21 @@ if selected=="Achievement" :
 # 2. GeeksforGeeks
      col1,col2 = st.columns([5,1]) 
      with col1 :
-          st.markdown('<span style="color:white"><h3><i>2. GeeksforGeeks profile</i></h3></span>',unsafe_allow_html=True)
+          st.markdown('<span style="color:white"><h3><i>2. Codechef</i></h3></span>',unsafe_allow_html=True)
           st.write(
                """
-               - nikhilteja21 | GeeksforGeeks 
+               - Paramjyothi21 | GeeksforGeeks 
                - Problem Solved : 100+.
+               - Badges : Problem solver, Daily Streak
                - Data Structures & Algorithms, Basic Programming.
                - Languages : Python, C++, Java, C.
-               - Institute Rank : 35
                """
           )
-          link_url = "https://auth.geeksforgeeks.org/user/nikhilteja21/"
+          link_url = "https://www.codechef.com/users/paramjyothi567"
           button_html = '''
                          <a href="{}" target="_blank">
                          <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
-                         View GeeksforGeeks profile</button></a>
+                         View Codechef profile</button></a>
                          '''
           st.markdown(button_html.format(link_url), unsafe_allow_html=True)
           st.write("\n")
@@ -235,11 +233,9 @@ if selected=="Achievement" :
           st.markdown('<span style="color:white"><h3><i>3. HackerRank profile</i></h3></span>',unsafe_allow_html=True)
           st.write(
                """
-               - NIKHIL TEJA-HackerRank
-               - Badges : 
-                    - Gold   :- Python, C++, MySQL, Problem Solving.
-                    - Silver :- Java, C.
-               - Languages : Python, Java, C++, C, MySQL, Problem Solving. (5)
+               - Paramjyothi21 - HackerRank
+               - Badges : Problem Solving, Java
+               - Languages : Python, Java, C, MySQL, Problem Solving. (2)
                - Functional, Object oriented programming and Data structures and algorithms.
                """
           )
