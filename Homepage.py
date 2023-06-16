@@ -42,7 +42,7 @@ if selected == "Home" :
                st_lottie(lottie_animation1,height=300,key="programmer")
      st.markdown(
                '''<span lang="en">
-               <h2 style="color:black"><i>I am Param Jyothi, an ASPIRING WEB DEVELOPER</i></h2>
+               <h2 style="color:white"><i>I am Param Jyothi, an ASPIRING WEB DEVELOPER</i></h2>
                </span>''',
                unsafe_allow_html=True
                )
