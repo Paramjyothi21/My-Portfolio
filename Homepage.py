@@ -228,7 +228,7 @@ if selected=="Achievement" :
      with col2 :
           st.image("Images/leetcode.png",width=200)
      st.write("---")
-# 2. GeeksforGeeks
+# 2. Codechef
      col1,col2 = st.columns([5,1]) 
      with col1 :
           st.markdown('<span style="color:white"><h3><i>2. Codechef</i></h3></span>',unsafe_allow_html=True)
@@ -250,7 +250,7 @@ if selected=="Achievement" :
           st.markdown(button_html.format(link_url), unsafe_allow_html=True)
           st.write("\n")
      with col2 :
-          st.image("Images/GFG.png",width=200)
+          st.image("Images/Codechef.png",width=200)
      st.write("---")
 # 3. HackerRank
      col1,col2 = st.columns([5,1]) 
