@@ -1,2 +1,2 @@
 # My-Portfolio
-My Portfolio : https://nikhilteja21-my-portfolio-homepage-wl3h0c.streamlit.app/
+My Portfolio : https://paramjyothi21-my-portfolio-homepage-u0dqx3.streamlit.app/
