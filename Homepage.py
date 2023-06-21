@@ -188,6 +188,7 @@ if selected=="Projects" :
           st.write("\n")
      with col2 :
           st_lottie(lottie_animation7,height=300,key="cut")
+     st.write('---')
 
 # 5th Project 
 
