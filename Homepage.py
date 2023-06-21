@@ -23,6 +23,7 @@ lottie_animation4 = load_lottieurl("https://assets10.lottiefiles.com/packages/lf
 lottie_animation5 = load_lottieurl("https://assets2.lottiefiles.com/private_files/lf30_4m4xa6he.json")
 lottie_animation6 = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_lzhv1mc4.json")
 lottie_animation7 = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_aGFno30IGO.json")
+lottie_animation8 = load_lottieurl("https://assets3.lottiefiles.com/packages/lf20_c0p8e6pa.json")
 
 selected = option_menu(
         menu_title = None,
@@ -187,6 +188,40 @@ if selected=="Projects" :
           st.write("\n")
      with col2 :
           st_lottie(lottie_animation7,height=300,key="cut")
+     col1,col2,col3,col4,col5 = st.columns(5)
+     with col3 : 
+          link_url = "https://github.com/Paramjyothi21"
+          button_html = '''
+                         <a href="{}" target="_blank">
+                         <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
+                         View all projects</button></a>
+                         '''
+          st.markdown(button_html.format(link_url), unsafe_allow_html=True)
+     st.write("---")
+
+# 5th Project 
+
+     st.markdown('<span style="color:white"><h2><i>5. Digital Approach for Better Harvesting</i></h2></span>',unsafe_allow_html=True)
+     col1,col2 = st.columns([4,2])
+     with col1 :
+          st.write(
+                    """
+                    -Traning our model using train_model(),we train it on GTX 950 and load the weights in file "model_weight_Adam.hdf5" 
+                    -Then we load these weights to our model (note:we train our model using 2 optimizers (Adam ,SGD))
+
+Test our model using test_model(..)
+                    """
+               )
+          link_url = "https://github.com/Paramjyothi21/Digital-Approach-for-Better-Harvesting"
+          button_html = '''
+                         <a href="{}" target="_blank">
+                         <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
+                         View project 5</button></a>
+                         '''
+          st.markdown(button_html.format(link_url), unsafe_allow_html=True)
+          st.write("\n")
+     with col2 :
+          st_lottie(lottie_animation8,height=300,key="Digi")
      col1,col2,col3,col4,col5 = st.columns(5)
      with col3 : 
           link_url = "https://github.com/Paramjyothi21"
