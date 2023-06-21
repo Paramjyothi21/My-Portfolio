@@ -188,16 +188,6 @@ if selected=="Projects" :
           st.write("\n")
      with col2 :
           st_lottie(lottie_animation7,height=300,key="cut")
-     col1,col2,col3,col4,col5 = st.columns(5)
-     with col3 : 
-          link_url = "https://github.com/Paramjyothi21"
-          button_html = '''
-                         <a href="{}" target="_blank">
-                         <button style="padding: 5px 15px; background-color: #071114; color: white; border: outset; cursor: pointer;">
-                         View all projects</button></a>
-                         '''
-          st.markdown(button_html.format(link_url), unsafe_allow_html=True)
-     st.write("---")
 
 # 5th Project 
 
@@ -208,8 +198,7 @@ if selected=="Projects" :
                     """
                     -Traning our model using train_model(),we train it on GTX 950 and load the weights in file "model_weight_Adam.hdf5" 
                     -Then we load these weights to our model (note:we train our model using 2 optimizers (Adam ,SGD))
-
-Test our model using test_model(..)
+                    - Test our model using test_model(..)
                     """
                )
           link_url = "https://github.com/Paramjyothi21/Digital-Approach-for-Better-Harvesting"
